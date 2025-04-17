@@ -1,0 +1,165 @@
+@media only screen and (max-width: 600px) {
+  body {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 150px;
+  background-color: #fbfbfb;
+  height: 200px;
+  width: 410px;
+  border-radius: 10px;
+  }
+  
+  #text, #author {
+    font-size: 0.7em;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: tahoma;
+  background-color: #4a5759;
+  }
+
+#root {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 150px;
+  background-color: #fbfbfb;
+  height: 400px;
+  width: 767px;
+  border-radius: 10px;
+}
+  
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#text {
+  margin: auto;
+  position: absolute;
+  top: 225px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  justify-content: center;
+  font-family: tahoma;
+  color: #4a5759;
+  font-weight: bold;
+  margin-top: 25px;
+  max-width: 400px;
+  font-size: 1.4em;
+}
+
+#author {
+  margin: auto;
+  position: absolute;
+  top: 390px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  font-family: tahoma;
+  color: #4a5759;
+  font-weight: normal;
+  margin-top: 25px;
+  max-width: 400px;
+  font-size: 1.5em;
+}
+
+#new-quote {
+  margin: auto;
+  position: relative;
+  top: 175px;
+  align-items: center;
+  justify-content: center;
+  color: #fbfbfb;
+  background-color: #fff;
+  font-family: tahoma; 
+  width: 95px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #4a5759;
+  font-size: 0.9em;
+  text-align: center;
+  background-color: #4a5759;
+}
+
+#image {
+  background-color: #fff;
+  width: 230px;
+  border-radius: 15px;
+  margin: auto;
+  border: 5px solid #fcdb00;
+  margin-top: 25px;
+}
+
+#logo {
+  display: block;
+  margin: auto;
+}
+
+#media {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80px;
+  margin-top: 15px;
+}
+
+#tweet-quote {
+  display: flex;
+  position: relative;
+  margin: auto;
+  top: 149px;
+  left: 330px;
+  text-align: center;
+  max-height: 38px;
+  max-width: 38px;
+  width: 38px;
+  height: 38px;
+}
+
+#facebook {
+  display: flex;
+  position: relative;
+  margin: auto;
+  top: 110px;
+  left: 280px;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  max-height: 40px;
+  max-width: 40px;
+}
+
+#sig {
+  color: #fbfbfb;
+  margin: auto;
+  position: absolute;
+  top: 570px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  justify-content: center;
+  font-size: 0.6em;
+  letter-spacing: 0.25em;
+}
