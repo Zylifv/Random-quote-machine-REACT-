@@ -103,6 +103,10 @@ body {
   background-color: #4a5759;
 }
 
+#new-quote:active {
+  transform: translateY(1px);
+}
+
 #image {
   background-color: #fff;
   width: 230px;
@@ -149,6 +153,10 @@ body {
   width: 40px;
   max-height: 40px;
   max-width: 40px;
+}
+
+#tweet-quote:hover, #facebook:hover {
+  transform: scale(1.05);
 }
 
 #sig {
