@@ -7,7 +7,7 @@ The REACT libraries used are:
 
 https://cdnjs.cloudflare.com/ajax/libs/react/19.0.0/cjs/react.production.min.js 
 https://cdnjs.cloudflare.com/ajax/libs/react-dom/19.0.0/cjs/react-dom.production.min.js
-//cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.min.js
+https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.min.js
 
 This uses a Simpsons random quote API which can be found here:
 
