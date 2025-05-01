@@ -14,3 +14,7 @@ This uses a Simpsons random quote API which can be found here:
 https://thesimpsonsquoteapi.glitch.me/quotes
 
 All credit for the API goes to its coder - Jason Luboff
+
+A quick CodePen demo can be found using this link:
+
+https://codepen.io/BobbyArmac/full/KwwPrgq 
