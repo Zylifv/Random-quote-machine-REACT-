@@ -1,6 +1,8 @@
 # Random-quote-machine-REACT-
 A random quote machine of Simpsons quotes using REACT
 
+![Simpsons-quotes-API-preview](Simpsons-quotesPNG.png)
+
 My first project using REACT as part of FreeCodeCamps certifications.
 
 The REACT libraries used are:
